@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<biblioteca xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+        xsi:noNamespaceSchemaLocation= "biblioteca.xsd">
+
+    <libro id="L4897">
+        <titulo>Popopo</titulo>
+        <capitulos>
+            <capitulo pag="1">Ppopopo</capitulo>
+        </capitulos>
+        <sinopsis>Es la crema</sinopsis>  
+    </libro>
+
+    <libro id="L1561">
+        <titulo>Guardián sobre el centeno</titulo>
+    </libro>
+
+    <periodico id="P1598">
+        <titulo>Washington Post</titulo>
+        <fecha>2020-03-12</fecha>
+        <indice>
+            1- Noticiario
+            2- Coloquio
+            3- Deportes
+        </indice>
+        <secciones>
+            <seccion pag="165">Noticiario</seccion>
+            <seccion pag="15">Esquelas</seccion>
+            <seccion pag="12">Wokismo</seccion>
+        </secciones>        
+    </periodico>
+    
+</biblioteca>

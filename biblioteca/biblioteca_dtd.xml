@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE biblioteca SYSTEM "biblioteca.dtd">
+
+<biblioteca>
+<libro pag="50" tipo_clase="infantil" id="L0010">
+    <titulo>Locos</titulo>
+    <capitulos>
+        <capitulo num="1" pag="50">
+            <contenido/>
+        </capitulo>
+        <capitulo num="2">
+            <contenido></contenido>
+        </capitulo>
+    </capitulos>
+    <sinopsis>todo es una caca</sinopsis>   
+</libro> 
+</biblioteca>
