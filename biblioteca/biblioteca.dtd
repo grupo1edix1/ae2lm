@@ -25,7 +25,7 @@
             <!ELEMENT contenido (#PCDATA)>
                 <!ATTLIST contenido info CDATA #IMPLIED>    
         <!ELEMENT secciones (seccion)*>
-            <!ELEMENT seccion (#PCDATA)> 
+            <!ELEMENT seccion (contenido)> 
                 <!ATTLIST seccion pag CDATA #IMPLIED>
         <!ELEMENT seccionesP (seccionP)*>
             <!ELEMENT seccionP (articulo)*> 

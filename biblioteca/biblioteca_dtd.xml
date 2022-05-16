@@ -12,12 +12,21 @@
         <sinopsis>Dante viaja con Virgilio al Infierno</sinopsis>  
     </libro>
 
+    <revista id="R1560" tipo_clase="coches">
+        <titulo>Coches</titulo>
+        <numero>26</numero>
+        <secciones>
+            <seccion pag="54"><contenido>Coches Deportivos</contenido></seccion>
+            <seccion><contenido>Schumacher</contenido></seccion>        
+        </secciones>
+    </revista>
+
     <libro id="L4987">
         <titulo>Guardián sobre el centeno</titulo>
     </libro>
 
     <revista id="R1568">
-        <titulo>ARTE</titulo>
+        <titulo>Juegos de Mesa</titulo>
         <numero>15</numero>
     </revista>
 
@@ -25,8 +34,8 @@
         <titulo>ARTE</titulo>
         <numero>16</numero>
         <secciones>
-            <seccion pag="54"> Otto Dix</seccion>
-            <seccion>Hockney</seccion>        
+            <seccion pag="54"><contenido info="Cultura">Otto Dix</contenido></seccion>
+            <seccion><contenido info="">Hockney</contenido></seccion>        
         </secciones>
     </revista>
 
