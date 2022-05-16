@@ -2,31 +2,45 @@
 <biblioteca xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
         xsi:noNamespaceSchemaLocation= "biblioteca.xsd">
 
-    <libro id="L4897">
-        <titulo>Popopo</titulo>
+    <libro id="L4897" tipo_clase="novela">
+        <titulo>La Divina Comedia</titulo>
         <capitulos>
-            <capitulo pag="1">Ppopopo</capitulo>
+            <capitulo num="1" pag="10"><contenido>Infierno</contenido></capitulo>
+            <capitulo num="2" pag="50"><contenido>Purgatorio</contenido> </capitulo>
+            <capitulo num="3" pag="110"><contenido>Paraíso</contenido></capitulo>
         </capitulos>
-        <sinopsis>Es la crema</sinopsis>  
+        <sinopsis>Dante viaja con Virgilio al Infierno</sinopsis>  
     </libro>
 
-    <libro id="L1561">
+    <libro id="L4987">
         <titulo>Guardián sobre el centeno</titulo>
     </libro>
 
-    <periodico id="P1598">
+    <revista id="R1568">
+        <titulo>ARTE</titulo>
+        <numero>15</numero>
+    </revista>
+
+    <revista id="R1569">
+        <titulo>ARTE</titulo>
+        <numero>16</numero>
+        <secciones>
+            <seccion pag="54"><contenido info="img.imagen"> Otto Dix</contenido></seccion>
+            <seccion><contenido>David Hockney</contenido></seccion>        
+        </secciones>
+    </revista>
+
+    
+    <periodico id="P1598" fecha="2020-03-12">
         <titulo>Washington Post</titulo>
-        <fecha>2020-03-12</fecha>
         <indice>
             1- Noticiario
             2- Coloquio
             3- Deportes
         </indice>
         <secciones>
-            <seccion pag="165">Noticiario</seccion>
-            <seccion pag="15">Esquelas</seccion>
-            <seccion pag="12">Wokismo</seccion>
-        </secciones>        
-    </periodico>
+            <seccion tipo="nacional"><articulo autor="Prada"><contenido> Mucho texto</contenido></articulo></seccion>
+        </secciones> 
+    </periodico>   
     
 </biblioteca>
